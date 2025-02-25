@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    background-color: blueviolet;
+    animation-name: ani;
+    animation-duration: 10s;
+    animation-delay: initial;
+    animation: ani 1s linear;
+}
+.box:active{
+    background-color: blue;
+    font-size: 40px;
+    font-family: fantasy;
+}
+.box:hover{
+    background-color: rgba(47, 0, 255, 0.527);
+    font-size: 50px;
+    font-family: fantasy;
+    cursor: copy;
+}
+@keyframes ani {
+    
+}
