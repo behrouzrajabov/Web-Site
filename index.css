@@ -9,7 +9,7 @@
     animation-name: ani;
     animation-duration: 10s;
     animation-delay: initial;
-    animation: ani 1s linear;
+    animation: ani 10s linear;
 }
 .box:active{
     background-color: blue;
@@ -23,5 +23,31 @@
     cursor: copy;
 }
 @keyframes ani {
-    
+    0%{
+        background-color:rgb(4, 0, 26);
+        font-size: 20px;
+    }
+    10%{
+        background-color:rgb(12, 0, 78) ;
+        font-size: 30px;
+    }
+    20%{
+        background-color: rgb(0, 24, 129);
+        font-size: 40px;
+    }
+    30%{
+        background-color: rgba(0, 0, 151, 0.479);
+    }
+    40%{
+        background-color: rgba(0, 12, 185, 0.527);
+    }
+    50%{
+        background-color: rgb(0, 0, 204);
+    }
+    60%{
+        background-color: blue;
+    }
+    70%{
+        background-color: blueviolet;
+    }
 }
